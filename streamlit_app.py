@@ -45,7 +45,6 @@ streamlit.text("The fruit load list contains:")
 streamlit.dataframe(my_data_row)
 
 #allow end user to add fruit
-fruit_user_input = streamlit.text_input('What fruit would you like to add?')
-add_my_fruit = read.csv(fruit_user_input)
+add_my_fruit = streamlit.text_input('What fruit would you like to add?')
 streamlit.text('Thanks for adding','add_my_fruit')
 
